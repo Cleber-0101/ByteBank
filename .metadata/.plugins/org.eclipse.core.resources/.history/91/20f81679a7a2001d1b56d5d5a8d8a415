@@ -14,14 +14,6 @@ public class ContaMetodos {
 	 Conta contaMarcelo = new Conta();
 	 contaMarcelo.deposita(1000);
 	 
-	 if(contaMarcelo.transfere(300, contaDoCleber)) {
-		 System.out.println("tranferencia realizada com sucesso");
-	 } else {
-		 System.out.println("faltou dinheiro");
-	 }
-	 
-	 
-	 contaDoCleber.titular = "Cleber Batista";
-	 System.out.println(contaDoCleber.titular);
+	 contaMarcelo.transfere(300, contaDoCleber);
  }
 }

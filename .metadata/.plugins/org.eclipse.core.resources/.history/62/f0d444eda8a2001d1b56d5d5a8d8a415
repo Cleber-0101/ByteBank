@@ -19,9 +19,5 @@ public class ContaMetodos {
 	 } else {
 		 System.out.println("faltou dinheiro");
 	 }
-	 
-	 
-	 contaDoCleber.titular = "Cleber Batista";
-	 System.out.println(contaDoCleber.titular);
  }
 }
